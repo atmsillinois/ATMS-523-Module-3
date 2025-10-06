@@ -1,4 +1,4 @@
-# ATMS-523-Module-2 Project 2
+# ATMS-523-Module-3 Project
 
 This project finds the record, average, and actual max and min temperatures
 for a given year using Global Historical Climatology Network Daily (GHCN-D) data
