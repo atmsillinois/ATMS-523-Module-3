@@ -1,3 +1,9 @@
 # ATMS 523 Module-3
 
-Code, notebooks, and homework for ATMS 523 Module 3.
+Hello. In this repository is my submission for the module 3 homework, `homework_assignment_3.ipynb`. In that notebook, you will find my code which addresses the assignment instructions spelled out in `HW.md`. 
+
+The first part of the assignment contains 2 functions. The first one being `select_station` which allows you to select a weather station from the GHCN-d network based on a city of your choosing. This function will display a dropdown menu of stations with the city in their name, from which you select a station and it will return that station's ID and name. This function is set to only include stations that still reported temperature data in 2025. The other function, `get_station_data`, uses the station ID from the previous function as input and grabs the daily min and max temperature data for the station's period of record. From that, it will return a dataframe containing the all time min and max temperatures for each calendar day of the year, as well as the 30 year average (1991-2020) min and max temperatures for each calendar day. It will also return dataframes for the daily min and max temperature for the entire period of record. These two functions must be run in separate cells, as Jupyter Notebook does not allow you to pause a cell to wait for user input using widgets. 
+
+The second part of the assignment involves plotting the data we gathered for the given station in part 1. The function `plot_station_data_year` takes in a year of your choosing and plots a time series of the actual daily min/max temperatures for the station, as well as the all time records and 30 year average. You can also choose to smooth the data using a 30-day window, which is smoothed using `scipy.signal.savgol_filter`. The plot was created using the Bokeh library, and allows you to interact with the plot itself if you choose. 
+
+Bokeh library: https://docs.bokeh.org/en/latest/ 
