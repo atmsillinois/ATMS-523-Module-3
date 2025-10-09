@@ -1,3 +1,11 @@
-# ATMS 523 Module-3
+# ATMS 523 Module 3 Assignment
 
-Code, notebooks, and homework for ATMS 523 Module 3.
+### Description
+This assignment focuses on GHCN Daily Data from Amazon Web Services to:
+* Use a function to read in station data and calculate record high, record low, and 1991-2020 averages
+* Plots the record, average, high and low temperatures for Dover, Delaware in 2015
+
+  
+### Dependencies
+* Python 3
+* Xarray-climate 
