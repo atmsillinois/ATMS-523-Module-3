@@ -11,13 +11,13 @@ The goal of this project is to:
   - Average high and low temperatures
 - Visualize these statistics alongside actual daily temperatures from a chosen year (2020).
 
-## 📊 Visualization
+## Visualization
 
 The final output is a line plot showing:
 - Record and average high/low temperatures (1991–2020)
 - Actual high/low temperatures for Shreveport in 2020
 
-## 📁 Files Included
+## Files Included
 
 - `module3_shreveport.ipynb`: Main notebook containing all code, analysis, and plots
 - `README.md`: Project description and instructions
