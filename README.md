@@ -1,4 +1,4 @@
-# ATMS 523 Module 2 Assignment
+# ATMS 523 Module 3 Assignment
 
 ### Description
 This assignment focuses on GHCN Daily Date from Amazon Web Services to:
